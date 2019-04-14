@@ -7,11 +7,23 @@
 //#include "StudyPoint2.h"
 //#include "StudyPoint3.h"
 //#include "StudySize.h"
-#include "StudyRect.h"
+//#include "StudyRect.h"
+//#include "StudyVec.h"
+//#include "StudyScalar.h"
+//#include "StudyRotatedRect.h"
+//#include "StudyMat.h"
+//#include "StudyMatInit.h"
+//#include "StudyMatAttr.h"
+//#include "StudyRange.h"
+//#include "StudyRangeROI.h"
+//#include "StudyMatPush.h"
+//#include "StudyMatOperator.h"
+//#include "StudyMatSaturate.h"
+#include "StudyMatException.h"
 
 int main()
 {
-	StudyRect study;
+	StudyMatException study;
 	study.Start();
 
 }

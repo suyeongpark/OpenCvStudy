@@ -20,6 +20,7 @@ int StudyPoint3::Start()
 	Point3f pt3(0.3f, 0.f, 15.7f);
 	Point3d pt4(0.25, 0.7, 33.3);
 
+
 	Point3i pt5 = pt1 - (Point3i)pt2;
 	Point3f pt6 = pt2 * 3.14f;
 	Point3d pt7 = ((Point3d)pt3 + pt4) * 10.f;

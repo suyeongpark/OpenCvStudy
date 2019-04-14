@@ -154,10 +154,23 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="StudyMat.h" />
+    <ClInclude Include="StudyMatAttr.h" />
+    <ClInclude Include="StudyMatException.h" />
+    <ClInclude Include="StudyMatInit.h" />
+    <ClInclude Include="StudyMatOperator.h" />
+    <ClInclude Include="StudyMatPush.h" />
+    <ClInclude Include="StudyMatSaturate.h" />
     <ClInclude Include="StudyPoint2.h" />
     <ClInclude Include="StudyPoint3.h" />
+    <ClInclude Include="StudyRange.h" />
+    <ClInclude Include="StudyRangeROI.h" />
     <ClInclude Include="StudyRect.h" />
+    <ClInclude Include="StudyRotatedRect.h" />
+    <ClInclude Include="StudyScalar.h" />
     <ClInclude Include="StudySize.h" />
+    <ClInclude Include="StudyVec.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="OpenCvStudy.cpp" />
@@ -167,10 +180,25 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="StudyMat.cpp" />
+    <ClCompile Include="StudyMatAttr.cpp" />
+    <ClCompile Include="StudyMatException.cpp" />
+    <ClCompile Include="StudyMatInit.cpp" />
+    <ClCompile Include="StudyMatOperator.cpp" />
+    <ClCompile Include="StudyMatPush.cpp" />
+    <ClCompile Include="StudyMatSaturate.cpp" />
     <ClCompile Include="StudyPoint2.cpp" />
     <ClCompile Include="StudyPoint3.cpp" />
+    <ClCompile Include="StudyRange.cpp" />
+    <ClCompile Include="StudyRangeROI.cpp" />
     <ClCompile Include="StudyRect.cpp" />
+    <ClCompile Include="StudyRotatedRect.cpp" />
+    <ClCompile Include="StudyScalar.cpp" />
     <ClCompile Include="StudySize.cpp" />
+    <ClCompile Include="StudyVec.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OpenCvStudy.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
