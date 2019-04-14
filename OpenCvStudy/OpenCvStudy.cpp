@@ -4,12 +4,16 @@
 #include "pch.h"
 #include <iostream>
 #include <opencv2/highgui.hpp>
+//#include "StudyPoint2.h"
+//#include "StudyPoint3.h"
+//#include "StudySize.h"
+#include "StudyRect.h"
 
 int main()
 {
-	cv::Mat image(300, 400, CV_8UC1, cv::Scalar(200));
-	cv::imshow("영상보기", image);
-	cv::waitKey(0);
+	StudyRect study;
+	study.Start();
+
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
