@@ -4,11 +4,11 @@
 #include "pch.h"
 #include <iostream>
 #include <opencv2/highgui.hpp>
-#include "StudyTrackbarEvent2.h"
+#include "StudyDrawEvent.h"
 
 int main()
 {
-	StudyTrackbarEvent2 study;
+	StudyDrawEvent study;
 	study.Start();
 
 }

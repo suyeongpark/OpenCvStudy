@@ -155,6 +155,10 @@
   <ItemGroup>
     <ClInclude Include="pch.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="StudyCircle.h" />
+    <ClInclude Include="StudyDraw.h" />
+    <ClInclude Include="StudyDrawEvent.h" />
+    <ClInclude Include="StudyEllipse.h" />
     <ClInclude Include="StudyKeyEvent.h" />
     <ClInclude Include="StudyMat.h" />
     <ClInclude Include="StudyMatAttr.h" />
@@ -166,6 +170,7 @@
     <ClInclude Include="StudyMouseEvent.h" />
     <ClInclude Include="StudyPoint2.h" />
     <ClInclude Include="StudyPoint3.h" />
+    <ClInclude Include="StudyPutText.h" />
     <ClInclude Include="StudyRange.h" />
     <ClInclude Include="StudyRangeROI.h" />
     <ClInclude Include="StudyRect.h" />
@@ -186,6 +191,10 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="StudyCircle.cpp" />
+    <ClCompile Include="StudyDraw.cpp" />
+    <ClCompile Include="StudyDrawEvent.cpp" />
+    <ClCompile Include="StudyEllipse.cpp" />
     <ClCompile Include="StudyKeyEvent.cpp" />
     <ClCompile Include="StudyMat.cpp" />
     <ClCompile Include="StudyMatAttr.cpp" />
@@ -197,6 +206,7 @@
     <ClCompile Include="StudyMouseEvent.cpp" />
     <ClCompile Include="StudyPoint2.cpp" />
     <ClCompile Include="StudyPoint3.cpp" />
+    <ClCompile Include="StudyPutText.cpp" />
     <ClCompile Include="StudyRange.cpp" />
     <ClCompile Include="StudyRangeROI.cpp" />
     <ClCompile Include="StudyRect.cpp" />

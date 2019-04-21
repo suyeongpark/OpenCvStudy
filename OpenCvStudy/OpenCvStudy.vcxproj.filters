@@ -19,6 +19,12 @@
     <Filter Include="소스 파일\Chapter3">
       <UniqueIdentifier>{ceccf3a0-98f6-43f0-b808-507dd1b235ec}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter4">
+      <UniqueIdentifier>{5c38a65b-7543-4aac-b0a2-044ffd72a3aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Chapter4">
+      <UniqueIdentifier>{aa584fbb-d6f4-4784-90f4-14c5b454fb5d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -75,22 +81,37 @@
     <ClInclude Include="StudyVec.h">
       <Filter>헤더 파일\Chapter3</Filter>
     </ClInclude>
-    <ClInclude Include="StudyWindowMove.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="StudyWindowResize.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
     <ClInclude Include="StudyKeyEvent.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>헤더 파일\Chapter4</Filter>
     </ClInclude>
     <ClInclude Include="StudyMouseEvent.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>헤더 파일\Chapter4</Filter>
     </ClInclude>
     <ClInclude Include="StudyTrackbarEvent.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>헤더 파일\Chapter4</Filter>
     </ClInclude>
     <ClInclude Include="StudyTrackbarEvent2.h">
+      <Filter>헤더 파일\Chapter4</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyWindowMove.h">
+      <Filter>헤더 파일\Chapter4</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyWindowResize.h">
+      <Filter>헤더 파일\Chapter4</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyDraw.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyPutText.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyCircle.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyEllipse.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyDrawEvent.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
@@ -149,22 +170,37 @@
     <ClCompile Include="StudyVec.cpp">
       <Filter>소스 파일\Chapter3</Filter>
     </ClCompile>
-    <ClCompile Include="StudyWindowMove.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="StudyWindowResize.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="StudyKeyEvent.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Chapter4</Filter>
     </ClCompile>
     <ClCompile Include="StudyMouseEvent.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Chapter4</Filter>
     </ClCompile>
     <ClCompile Include="StudyTrackbarEvent.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Chapter4</Filter>
     </ClCompile>
     <ClCompile Include="StudyTrackbarEvent2.cpp">
+      <Filter>소스 파일\Chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyWindowMove.cpp">
+      <Filter>소스 파일\Chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyWindowResize.cpp">
+      <Filter>소스 파일\Chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyDraw.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyPutText.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyCircle.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyEllipse.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyDrawEvent.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
