@@ -4,26 +4,11 @@
 #include "pch.h"
 #include <iostream>
 #include <opencv2/highgui.hpp>
-//#include "StudyPoint2.h"
-//#include "StudyPoint3.h"
-//#include "StudySize.h"
-//#include "StudyRect.h"
-//#include "StudyVec.h"
-//#include "StudyScalar.h"
-//#include "StudyRotatedRect.h"
-//#include "StudyMat.h"
-//#include "StudyMatInit.h"
-//#include "StudyMatAttr.h"
-//#include "StudyRange.h"
-//#include "StudyRangeROI.h"
-//#include "StudyMatPush.h"
-//#include "StudyMatOperator.h"
-//#include "StudyMatSaturate.h"
-#include "StudyMatException.h"
+#include "StudyTrackbarEvent2.h"
 
 int main()
 {
-	StudyMatException study;
+	StudyTrackbarEvent2 study;
 	study.Start();
 
 }
