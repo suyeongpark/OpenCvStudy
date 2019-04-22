@@ -99,20 +99,53 @@
     <ClInclude Include="StudyWindowResize.h">
       <Filter>헤더 파일\Chapter4</Filter>
     </ClInclude>
-    <ClInclude Include="StudyDraw.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="StudyPutText.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
     <ClInclude Include="StudyCircle.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>헤더 파일\Chapter4</Filter>
     </ClInclude>
-    <ClInclude Include="StudyEllipse.h">
-      <Filter>헤더 파일</Filter>
+    <ClInclude Include="StudyDraw.h">
+      <Filter>헤더 파일\Chapter4</Filter>
     </ClInclude>
     <ClInclude Include="StudyDrawEvent.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>헤더 파일\Chapter4</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyEllipse.h">
+      <Filter>헤더 파일\Chapter4</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyPutText.h">
+      <Filter>헤더 파일\Chapter4</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyReadImage.h">
+      <Filter>헤더 파일\Chapter4</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyReadImage3.h">
+      <Filter>헤더 파일\Chapter4</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyWriteImage.h">
+      <Filter>헤더 파일\Chapter4</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyWriteImage2.h">
+      <Filter>헤더 파일\Chapter4</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyCameraFrame.h">
+      <Filter>헤더 파일\Chapter4</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyImageDataWrite.h">
+      <Filter>헤더 파일\Chapter4</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyReadCamera.h">
+      <Filter>헤더 파일\Chapter4</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyReadFileStorage.h">
+      <Filter>헤더 파일\Chapter4</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyReadVideo.h">
+      <Filter>헤더 파일\Chapter4</Filter>
+    </ClInclude>
+    <ClInclude Include="StudySetCamera.h">
+      <Filter>헤더 파일\Chapter4</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyWriteFileStorage.h">
+      <Filter>헤더 파일\Chapter4</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -188,20 +221,53 @@
     <ClCompile Include="StudyWindowResize.cpp">
       <Filter>소스 파일\Chapter4</Filter>
     </ClCompile>
-    <ClCompile Include="StudyDraw.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="StudyPutText.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="StudyCircle.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Chapter4</Filter>
     </ClCompile>
-    <ClCompile Include="StudyEllipse.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="StudyDraw.cpp">
+      <Filter>소스 파일\Chapter4</Filter>
     </ClCompile>
     <ClCompile Include="StudyDrawEvent.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyEllipse.cpp">
+      <Filter>소스 파일\Chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyPutText.cpp">
+      <Filter>소스 파일\Chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyReadImage.cpp">
+      <Filter>소스 파일\Chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyReadImage3.cpp">
+      <Filter>소스 파일\Chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyWriteImage.cpp">
+      <Filter>소스 파일\Chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyWriteImage2.cpp">
+      <Filter>소스 파일\Chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyCameraFrame.cpp">
+      <Filter>소스 파일\Chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyImageDataWrite.cpp">
+      <Filter>소스 파일\Chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyReadCamera.cpp">
+      <Filter>소스 파일\Chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyReadFileStorage.cpp">
+      <Filter>소스 파일\Chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyReadVideo.cpp">
+      <Filter>소스 파일\Chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="StudySetCamera.cpp">
+      <Filter>소스 파일\Chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyWriteFileStorage.cpp">
+      <Filter>소스 파일\Chapter4</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

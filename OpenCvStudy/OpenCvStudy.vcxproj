@@ -155,10 +155,12 @@
   <ItemGroup>
     <ClInclude Include="pch.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="StudyCameraFrame.h" />
     <ClInclude Include="StudyCircle.h" />
     <ClInclude Include="StudyDraw.h" />
     <ClInclude Include="StudyDrawEvent.h" />
     <ClInclude Include="StudyEllipse.h" />
+    <ClInclude Include="StudyImageDataWrite.h" />
     <ClInclude Include="StudyKeyEvent.h" />
     <ClInclude Include="StudyMat.h" />
     <ClInclude Include="StudyMatAttr.h" />
@@ -173,15 +175,24 @@
     <ClInclude Include="StudyPutText.h" />
     <ClInclude Include="StudyRange.h" />
     <ClInclude Include="StudyRangeROI.h" />
+    <ClInclude Include="StudyReadCamera.h" />
+    <ClInclude Include="StudyReadFileStorage.h" />
+    <ClInclude Include="StudyReadImage.h" />
+    <ClInclude Include="StudyReadImage3.h" />
+    <ClInclude Include="StudyReadVideo.h" />
     <ClInclude Include="StudyRect.h" />
     <ClInclude Include="StudyRotatedRect.h" />
     <ClInclude Include="StudyScalar.h" />
+    <ClInclude Include="StudySetCamera.h" />
     <ClInclude Include="StudySize.h" />
     <ClInclude Include="StudyTrackbarEvent.h" />
     <ClInclude Include="StudyTrackbarEvent2.h" />
     <ClInclude Include="StudyVec.h" />
     <ClInclude Include="StudyWindowMove.h" />
     <ClInclude Include="StudyWindowResize.h" />
+    <ClInclude Include="StudyWriteFileStorage.h" />
+    <ClInclude Include="StudyWriteImage.h" />
+    <ClInclude Include="StudyWriteImage2.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="OpenCvStudy.cpp" />
@@ -191,10 +202,12 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="StudyCameraFrame.cpp" />
     <ClCompile Include="StudyCircle.cpp" />
     <ClCompile Include="StudyDraw.cpp" />
     <ClCompile Include="StudyDrawEvent.cpp" />
     <ClCompile Include="StudyEllipse.cpp" />
+    <ClCompile Include="StudyImageDataWrite.cpp" />
     <ClCompile Include="StudyKeyEvent.cpp" />
     <ClCompile Include="StudyMat.cpp" />
     <ClCompile Include="StudyMatAttr.cpp" />
@@ -209,15 +222,24 @@
     <ClCompile Include="StudyPutText.cpp" />
     <ClCompile Include="StudyRange.cpp" />
     <ClCompile Include="StudyRangeROI.cpp" />
+    <ClCompile Include="StudyReadCamera.cpp" />
+    <ClCompile Include="StudyReadFileStorage.cpp" />
+    <ClCompile Include="StudyReadImage.cpp" />
+    <ClCompile Include="StudyReadImage3.cpp" />
+    <ClCompile Include="StudyReadVideo.cpp" />
     <ClCompile Include="StudyRect.cpp" />
     <ClCompile Include="StudyRotatedRect.cpp" />
     <ClCompile Include="StudyScalar.cpp" />
+    <ClCompile Include="StudySetCamera.cpp" />
     <ClCompile Include="StudySize.cpp" />
     <ClCompile Include="StudyTrackbarEvent.cpp" />
     <ClCompile Include="StudyTrackbarEvent2.cpp" />
     <ClCompile Include="StudyVec.cpp" />
     <ClCompile Include="StudyWindowMove.cpp" />
     <ClCompile Include="StudyWindowResize.cpp" />
+    <ClCompile Include="StudyWriteFileStorage.cpp" />
+    <ClCompile Include="StudyWriteImage.cpp" />
+    <ClCompile Include="StudyWriteImage2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="OpenCvStudy.rc" />
