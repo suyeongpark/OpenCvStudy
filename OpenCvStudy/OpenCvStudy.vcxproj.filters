@@ -25,6 +25,12 @@
     <Filter Include="헤더 파일\Chapter4">
       <UniqueIdentifier>{aa584fbb-d6f4-4784-90f4-14c5b454fb5d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Chapter5">
+      <UniqueIdentifier>{4acf6605-e52d-40e7-81ce-e52baf655dba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Chapter5">
+      <UniqueIdentifier>{793d87bc-7e63-492a-9f03-96cdd7aaef30}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -147,6 +153,66 @@
     <ClInclude Include="StudyWriteFileStorage.h">
       <Filter>헤더 파일\Chapter4</Filter>
     </ClInclude>
+    <ClInclude Include="StudyArithmeticOp.h">
+      <Filter>헤더 파일\Chapter5</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyBitwiseOp.h">
+      <Filter>헤더 파일\Chapter5</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyBitwiseOverlap.h">
+      <Filter>헤더 파일\Chapter5</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyEquation.h">
+      <Filter>헤더 파일\Chapter5</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyExpLog.h">
+      <Filter>헤더 파일\Chapter5</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyGemm.h">
+      <Filter>헤더 파일\Chapter5</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyImageChannels.h">
+      <Filter>헤더 파일\Chapter5</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyMagnitude.h">
+      <Filter>헤더 파일\Chapter5</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyMatAbs.h">
+      <Filter>헤더 파일\Chapter5</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyMatArray.h">
+      <Filter>헤더 파일\Chapter5</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyMatChannel.h">
+      <Filter>헤더 파일\Chapter5</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyMinMax.h">
+      <Filter>헤더 파일\Chapter5</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyMinMax2.h">
+      <Filter>헤더 파일\Chapter5</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyMixChannel.h">
+      <Filter>헤더 파일\Chapter5</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyPointTransform.h">
+      <Filter>헤더 파일\Chapter5</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyReduce.h">
+      <Filter>헤더 파일\Chapter5</Filter>
+    </ClInclude>
+    <ClInclude Include="StudySmAvg.h">
+      <Filter>헤더 파일\Chapter5</Filter>
+    </ClInclude>
+    <ClInclude Include="StudySort.h">
+      <Filter>헤더 파일\Chapter5</Filter>
+    </ClInclude>
+    <ClInclude Include="StudySortIdx.h">
+      <Filter>헤더 파일\Chapter5</Filter>
+    </ClInclude>
+    <ClInclude Include="StudySortIdxRect.h">
+      <Filter>헤더 파일\Chapter5</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -268,6 +334,66 @@
     </ClCompile>
     <ClCompile Include="StudyWriteFileStorage.cpp">
       <Filter>소스 파일\Chapter4</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyArithmeticOp.cpp">
+      <Filter>소스 파일\Chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyBitwiseOp.cpp">
+      <Filter>소스 파일\Chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyBitwiseOverlap.cpp">
+      <Filter>소스 파일\Chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyEquation.cpp">
+      <Filter>소스 파일\Chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyExpLog.cpp">
+      <Filter>소스 파일\Chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyGemm.cpp">
+      <Filter>소스 파일\Chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyImageChannels.cpp">
+      <Filter>소스 파일\Chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyMagnitude.cpp">
+      <Filter>소스 파일\Chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyMatAbs.cpp">
+      <Filter>소스 파일\Chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyMatArray.cpp">
+      <Filter>소스 파일\Chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyMatChannel.cpp">
+      <Filter>소스 파일\Chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyMinMax.cpp">
+      <Filter>소스 파일\Chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyMinMax2.cpp">
+      <Filter>소스 파일\Chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyMixChannel.cpp">
+      <Filter>소스 파일\Chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyPointTransform.cpp">
+      <Filter>소스 파일\Chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyReduce.cpp">
+      <Filter>소스 파일\Chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="StudySmAvg.cpp">
+      <Filter>소스 파일\Chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="StudySort.cpp">
+      <Filter>소스 파일\Chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="StudySortIdx.cpp">
+      <Filter>소스 파일\Chapter5</Filter>
+    </ClCompile>
+    <ClCompile Include="StudySortIdxRect.cpp">
+      <Filter>소스 파일\Chapter5</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

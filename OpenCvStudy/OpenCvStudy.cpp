@@ -4,13 +4,12 @@
 #include "pch.h"
 #include <iostream>
 #include <opencv2/highgui.hpp>
-#include "StudyImageDataWrite.h"
+#include "StudyEquation.h"
 
 int main()
 {
-	StudyImageDataWrite study;
+	StudyEquation study;
 	study.Start();
-
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
