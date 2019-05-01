@@ -4,11 +4,11 @@
 #include "pch.h"
 #include <iostream>
 #include <opencv2/highgui.hpp>
-#include "StudyEquation.h"
+#include "StudyContrast.h"
 
 int main()
 {
-	StudyEquation study;
+	StudyContrast study;
 	study.Start();
 }
 
