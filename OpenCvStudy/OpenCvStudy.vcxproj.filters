@@ -219,29 +219,38 @@
     <ClInclude Include="StudySortIdxRect.h">
       <Filter>헤더 파일\Chapter5</Filter>
     </ClInclude>
-    <ClInclude Include="StudyMatAt.h">
-      <Filter>헤더 파일</Filter>
+    <ClInclude Include="Study6DrawHistogram.h">
+      <Filter>헤더 파일\Chapter6</Filter>
     </ClInclude>
-    <ClInclude Include="StudyMatPtr.h">
-      <Filter>헤더 파일</Filter>
+    <ClInclude Include="Study6HistogramCalc.h">
+      <Filter>헤더 파일\Chapter6</Filter>
     </ClInclude>
-    <ClInclude Include="StudyMatIterator.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="StudyGrayscaleImage.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="StudyPixelValue.h">
-      <Filter>헤더 파일</Filter>
+    <ClInclude Include="Study6HueHistogram.h">
+      <Filter>헤더 파일\Chapter6</Filter>
     </ClInclude>
     <ClInclude Include="StudyBrightDark.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="StudyImageSynthesis.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>헤더 파일\Chapter6</Filter>
     </ClInclude>
     <ClInclude Include="StudyContrast.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>헤더 파일\Chapter6</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyGrayscaleImage.h">
+      <Filter>헤더 파일\Chapter6</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyImageSynthesis.h">
+      <Filter>헤더 파일\Chapter6</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyMatAt.h">
+      <Filter>헤더 파일\Chapter6</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyMatIterator.h">
+      <Filter>헤더 파일\Chapter6</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyMatPtr.h">
+      <Filter>헤더 파일\Chapter6</Filter>
+    </ClInclude>
+    <ClInclude Include="StudyPixelValue.h">
+      <Filter>헤더 파일\Chapter6</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -425,29 +434,38 @@
     <ClCompile Include="StudySortIdxRect.cpp">
       <Filter>소스 파일\Chapter5</Filter>
     </ClCompile>
-    <ClCompile Include="StudyMatAt.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="Study6DrawHistogram.cpp">
+      <Filter>소스 파일\Chapter6</Filter>
     </ClCompile>
-    <ClCompile Include="StudyMatPtr.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="Study6HistogramCalc.cpp">
+      <Filter>소스 파일\Chapter6</Filter>
     </ClCompile>
-    <ClCompile Include="StudyMatIterator.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="StudyGrayscaleImage.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="StudyPixelValue.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="Study6HueHistogram.cpp">
+      <Filter>소스 파일\Chapter6</Filter>
     </ClCompile>
     <ClCompile Include="StudyBrightDark.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="StudyImageSynthesis.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Chapter6</Filter>
     </ClCompile>
     <ClCompile Include="StudyContrast.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyGrayscaleImage.cpp">
+      <Filter>소스 파일\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyImageSynthesis.cpp">
+      <Filter>소스 파일\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyMatAt.cpp">
+      <Filter>소스 파일\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyMatIterator.cpp">
+      <Filter>소스 파일\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyMatPtr.cpp">
+      <Filter>소스 파일\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="StudyPixelValue.cpp">
+      <Filter>소스 파일\Chapter6</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

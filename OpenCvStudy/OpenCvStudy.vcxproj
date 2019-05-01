@@ -155,6 +155,9 @@
   <ItemGroup>
     <ClInclude Include="pch.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="Study6DrawHistogram.h" />
+    <ClInclude Include="Study6HistogramCalc.h" />
+    <ClInclude Include="Study6HueHistogram.h" />
     <ClInclude Include="StudyArithmeticOp.h" />
     <ClInclude Include="StudyBitwiseOp.h" />
     <ClInclude Include="StudyBitwiseOverlap.h" />
@@ -230,6 +233,9 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Study6DrawHistogram.cpp" />
+    <ClCompile Include="Study6HistogramCalc.cpp" />
+    <ClCompile Include="Study6HueHistogram.cpp" />
     <ClCompile Include="StudyArithmeticOp.cpp" />
     <ClCompile Include="StudyBitwiseOp.cpp" />
     <ClCompile Include="StudyBitwiseOverlap.cpp" />
