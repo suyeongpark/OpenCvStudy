@@ -252,17 +252,23 @@
     <ClInclude Include="StudyPixelValue.h">
       <Filter>헤더 파일\Chapter6</Filter>
     </ClInclude>
-    <ClInclude Include="Study6HistogramStretching.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Study6HistogramEqualize.h">
-      <Filter>헤더 파일</Filter>
+    <ClInclude Include="Study6ConvertOthers.h">
+      <Filter>헤더 파일\Chapter6</Filter>
     </ClInclude>
     <ClInclude Include="Study6ConvertCMY.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>헤더 파일\Chapter6</Filter>
     </ClInclude>
     <ClInclude Include="Study6ConvertHSV.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>헤더 파일\Chapter6</Filter>
+    </ClInclude>
+    <ClInclude Include="Study6HistogramEqualize.h">
+      <Filter>헤더 파일\Chapter6</Filter>
+    </ClInclude>
+    <ClInclude Include="Study6HistogramStretching.h">
+      <Filter>헤더 파일\Chapter6</Filter>
+    </ClInclude>
+    <ClInclude Include="Study6HueThreshold.h">
+      <Filter>헤더 파일\Chapter6</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -479,17 +485,23 @@
     <ClCompile Include="StudyPixelValue.cpp">
       <Filter>소스 파일\Chapter6</Filter>
     </ClCompile>
-    <ClCompile Include="Study6HistogramStretching.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Study6HistogramEqualize.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="Study6ConvertOthers.cpp">
+      <Filter>소스 파일\Chapter6</Filter>
     </ClCompile>
     <ClCompile Include="Study6ConvertCMY.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Chapter6</Filter>
     </ClCompile>
     <ClCompile Include="Study6ConvertHSV.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="Study6HistogramEqualize.cpp">
+      <Filter>소스 파일\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="Study6HistogramStretching.cpp">
+      <Filter>소스 파일\Chapter6</Filter>
+    </ClCompile>
+    <ClCompile Include="Study6HueThreshold.cpp">
+      <Filter>소스 파일\Chapter6</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

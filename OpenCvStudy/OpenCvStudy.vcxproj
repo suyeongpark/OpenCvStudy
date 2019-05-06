@@ -155,6 +155,7 @@
   <ItemGroup>
     <ClInclude Include="pch.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="Study6ConvertOthers.h" />
     <ClInclude Include="Study6ConvertCMY.h" />
     <ClInclude Include="Study6ConvertHSV.h" />
     <ClInclude Include="Study6DrawHistogram.h" />
@@ -162,6 +163,7 @@
     <ClInclude Include="Study6HistogramEqualize.h" />
     <ClInclude Include="Study6HistogramStretching.h" />
     <ClInclude Include="Study6HueHistogram.h" />
+    <ClInclude Include="Study6HueThreshold.h" />
     <ClInclude Include="StudyArithmeticOp.h" />
     <ClInclude Include="StudyBitwiseOp.h" />
     <ClInclude Include="StudyBitwiseOverlap.h" />
@@ -237,6 +239,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Study6ConvertOthers.cpp" />
     <ClCompile Include="Study6ConvertCMY.cpp" />
     <ClCompile Include="Study6ConvertHSV.cpp" />
     <ClCompile Include="Study6DrawHistogram.cpp" />
@@ -244,6 +247,7 @@
     <ClCompile Include="Study6HistogramEqualize.cpp" />
     <ClCompile Include="Study6HistogramStretching.cpp" />
     <ClCompile Include="Study6HueHistogram.cpp" />
+    <ClCompile Include="Study6HueThreshold.cpp" />
     <ClCompile Include="StudyArithmeticOp.cpp" />
     <ClCompile Include="StudyBitwiseOp.cpp" />
     <ClCompile Include="StudyBitwiseOverlap.cpp" />
