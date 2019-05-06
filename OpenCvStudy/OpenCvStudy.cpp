@@ -4,11 +4,11 @@
 #include "pch.h"
 #include <iostream>
 #include <opencv2/highgui.hpp>
-#include "Study6HueHistogram.h"
+#include "Study6ConvertHSV.h"
 
 int main()
 {
-	Study6HueHistogram study;
+	Study6ConvertHSV study;
 	study.Start();
 }
 
