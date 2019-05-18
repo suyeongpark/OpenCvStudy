@@ -4,11 +4,11 @@
 #include "pch.h"
 #include <iostream>
 #include <opencv2/highgui.hpp>
-#include "Study6HueThreshold.h"
+#include "Study7Canny.h"
 
 int main()
 {
-	Study6HueThreshold study;
+	Study7Canny study;
 	study.Start();
 }
 
