@@ -1,15 +1,15 @@
-﻿// OpenCvStudy7.cpp : 이 파일에는 'main' 함수가 포함됩니다. 거기서 프로그램 실행이 시작되고 종료됩니다.
+﻿// OpenCvStudy8.cpp : 이 파일에는 'main' 함수가 포함됩니다. 거기서 프로그램 실행이 시작되고 종료됩니다.
 //
 
 #include "pch.h"
 #include <iostream>
 #include <opencv2/highgui.hpp>
-#include "Study7DetectPlate.h"
+//#include "Study7DetectPlate.h"
 
 int main()
 {
-	Study7DetectPlate study;
-	study.Start();
+	//Study7DetectPlate study;
+	//study.Start();
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴

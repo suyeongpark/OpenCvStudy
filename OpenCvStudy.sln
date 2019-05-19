@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenCvStudy7", "OpenCvStudy
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenCvStudy6", "OpenCvStudy6\OpenCvStudy6.vcxproj", "{53259E4A-BBB0-400D-8075-BF230CBB7163}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenCvStudy8", "OpenCvStudy8\OpenCvStudy8.vcxproj", "{D7B964BB-D0BB-43F3-B4F2-E6478408B341}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{53259E4A-BBB0-400D-8075-BF230CBB7163}.Release|x64.Build.0 = Release|x64
 		{53259E4A-BBB0-400D-8075-BF230CBB7163}.Release|x86.ActiveCfg = Release|Win32
 		{53259E4A-BBB0-400D-8075-BF230CBB7163}.Release|x86.Build.0 = Release|Win32
+		{D7B964BB-D0BB-43F3-B4F2-E6478408B341}.Debug|x64.ActiveCfg = Debug|x64
+		{D7B964BB-D0BB-43F3-B4F2-E6478408B341}.Debug|x64.Build.0 = Debug|x64
+		{D7B964BB-D0BB-43F3-B4F2-E6478408B341}.Debug|x86.ActiveCfg = Debug|Win32
+		{D7B964BB-D0BB-43F3-B4F2-E6478408B341}.Debug|x86.Build.0 = Debug|Win32
+		{D7B964BB-D0BB-43F3-B4F2-E6478408B341}.Release|x64.ActiveCfg = Release|x64
+		{D7B964BB-D0BB-43F3-B4F2-E6478408B341}.Release|x64.Build.0 = Release|x64
+		{D7B964BB-D0BB-43F3-B4F2-E6478408B341}.Release|x86.ActiveCfg = Release|Win32
+		{D7B964BB-D0BB-43F3-B4F2-E6478408B341}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

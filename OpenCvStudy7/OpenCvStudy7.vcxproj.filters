@@ -54,6 +54,18 @@
     <ClInclude Include="Study7Canny.h">
       <Filter>헤더 파일\Chapter7</Filter>
     </ClInclude>
+    <ClInclude Include="Study7CloseOpen.h">
+      <Filter>헤더 파일\Chapter7</Filter>
+    </ClInclude>
+    <ClInclude Include="Study7DetectPlate.h">
+      <Filter>헤더 파일\Chapter7</Filter>
+    </ClInclude>
+    <ClInclude Include="Study7Dilation.h">
+      <Filter>헤더 파일\Chapter7</Filter>
+    </ClInclude>
+    <ClInclude Include="Study7Erosion.h">
+      <Filter>헤더 파일\Chapter7</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -90,6 +102,18 @@
       <Filter>소스 파일\Chapter7</Filter>
     </ClCompile>
     <ClCompile Include="Study7Shrapening.cpp">
+      <Filter>소스 파일\Chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="Study7CloseOpen.cpp">
+      <Filter>소스 파일\Chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="Study7DetectPlate.cpp">
+      <Filter>소스 파일\Chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="Study7Dilation.cpp">
+      <Filter>소스 파일\Chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="Study7Erosion.cpp">
       <Filter>소스 파일\Chapter7</Filter>
     </ClCompile>
   </ItemGroup>

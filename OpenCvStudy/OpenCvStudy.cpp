@@ -4,11 +4,11 @@
 #include "pch.h"
 #include <iostream>
 #include <opencv2/highgui.hpp>
-#include "Study7Canny.h"
+#include "StudyMat.h"
 
 int main()
 {
-	Study7Canny study;
+	StudyMat study;
 	study.Start();
 }
 
