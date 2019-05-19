@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{2BC4BD00-D502-4815-8FD3-7B10A233EFEF}</ProjectGuid>
+    <ProjectGuid>{53259E4A-BBB0-400D-8075-BF230CBB7163}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>OpenCvStudy</RootNamespace>
+    <RootNamespace>OpenCvStudy6</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -72,10 +72,10 @@
     <Import Project="..\..\..\Properties\OpenCv401_x64_v15_Release.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -84,22 +84,6 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <ClCompile>
-      <PrecompiledHeader>Use</PrecompiledHeader>
-      <WarningLevel>Level3</WarningLevel>
-      <Optimization>Disabled</Optimization>
-      <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <ConformanceMode>true</ConformanceMode>
-      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
-    </ClCompile>
-    <Link>
-      <SubSystem>Console</SubSystem>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>C:\opencv\build\x64\vc15\lib\opencv_world401d.lib;%(AdditionalDependencies)</AdditionalDependencies>
-    </Link>
-  </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <PrecompiledHeader>Use</PrecompiledHeader>
@@ -107,6 +91,21 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
     </ClCompile>
@@ -132,7 +131,6 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>C:\opencv\build\x64\vc15\lib\opencv_world401.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -156,169 +154,33 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
-    <ClInclude Include="resource.h" />
-    <ClInclude Include="Study6ConvertOthers.h" />
     <ClInclude Include="Study6ConvertCMY.h" />
     <ClInclude Include="Study6ConvertHSV.h" />
+    <ClInclude Include="Study6ConvertOthers.h" />
     <ClInclude Include="Study6DrawHistogram.h" />
     <ClInclude Include="Study6HistogramCalc.h" />
     <ClInclude Include="Study6HistogramEqualize.h" />
     <ClInclude Include="Study6HistogramStretching.h" />
     <ClInclude Include="Study6HueHistogram.h" />
     <ClInclude Include="Study6HueThreshold.h" />
-    <ClInclude Include="StudyArithmeticOp.h" />
-    <ClInclude Include="StudyBitwiseOp.h" />
-    <ClInclude Include="StudyBitwiseOverlap.h" />
-    <ClInclude Include="StudyBrightDark.h" />
-    <ClInclude Include="StudyCameraFrame.h" />
-    <ClInclude Include="StudyCircle.h" />
-    <ClInclude Include="StudyContrast.h" />
-    <ClInclude Include="StudyDraw.h" />
-    <ClInclude Include="StudyDrawEvent.h" />
-    <ClInclude Include="StudyEllipse.h" />
-    <ClInclude Include="StudyEquation.h" />
-    <ClInclude Include="StudyExpLog.h" />
-    <ClInclude Include="StudyGemm.h" />
-    <ClInclude Include="StudyGrayscaleImage.h" />
-    <ClInclude Include="StudyImageChannels.h" />
-    <ClInclude Include="StudyImageDataWrite.h" />
-    <ClInclude Include="StudyImageSynthesis.h" />
-    <ClInclude Include="StudyKeyEvent.h" />
-    <ClInclude Include="StudyMagnitude.h" />
-    <ClInclude Include="StudyMat.h" />
-    <ClInclude Include="StudyMatAbs.h" />
-    <ClInclude Include="StudyMatArray.h" />
-    <ClInclude Include="StudyMatAt.h" />
-    <ClInclude Include="StudyMatAttr.h" />
-    <ClInclude Include="StudyMatChannel.h" />
-    <ClInclude Include="StudyMatException.h" />
-    <ClInclude Include="StudyMatInit.h" />
-    <ClInclude Include="StudyMatIterator.h" />
-    <ClInclude Include="StudyMatOperator.h" />
-    <ClInclude Include="StudyMatPtr.h" />
-    <ClInclude Include="StudyMatPush.h" />
-    <ClInclude Include="StudyMatSaturate.h" />
-    <ClInclude Include="StudyMinMax.h" />
-    <ClInclude Include="StudyMinMax2.h" />
-    <ClInclude Include="StudyMixChannel.h" />
-    <ClInclude Include="StudyMouseEvent.h" />
-    <ClInclude Include="StudyPixelValue.h" />
-    <ClInclude Include="StudyPoint2.h" />
-    <ClInclude Include="StudyPoint3.h" />
-    <ClInclude Include="StudyPointTransform.h" />
-    <ClInclude Include="StudyPutText.h" />
-    <ClInclude Include="StudyRange.h" />
-    <ClInclude Include="StudyRangeROI.h" />
-    <ClInclude Include="StudyReadCamera.h" />
-    <ClInclude Include="StudyReadFileStorage.h" />
-    <ClInclude Include="StudyReadImage.h" />
-    <ClInclude Include="StudyReadImage3.h" />
-    <ClInclude Include="StudyReadVideo.h" />
-    <ClInclude Include="StudyRect.h" />
-    <ClInclude Include="StudyReduce.h" />
-    <ClInclude Include="StudyRotatedRect.h" />
-    <ClInclude Include="StudyScalar.h" />
-    <ClInclude Include="StudySetCamera.h" />
-    <ClInclude Include="StudySize.h" />
-    <ClInclude Include="StudySmAvg.h" />
-    <ClInclude Include="StudySort.h" />
-    <ClInclude Include="StudySortIdx.h" />
-    <ClInclude Include="StudySortIdxRect.h" />
-    <ClInclude Include="StudyTrackbarEvent.h" />
-    <ClInclude Include="StudyTrackbarEvent2.h" />
-    <ClInclude Include="StudyVec.h" />
-    <ClInclude Include="StudyWindowMove.h" />
-    <ClInclude Include="StudyWindowResize.h" />
-    <ClInclude Include="StudyWriteFileStorage.h" />
-    <ClInclude Include="StudyWriteImage.h" />
-    <ClInclude Include="StudyWriteImage2.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="OpenCvStudy.cpp" />
+    <ClCompile Include="OpenCvStudy6.cpp" />
     <ClCompile Include="pch.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="Study6ConvertOthers.cpp" />
     <ClCompile Include="Study6ConvertCMY.cpp" />
     <ClCompile Include="Study6ConvertHSV.cpp" />
+    <ClCompile Include="Study6ConvertOthers.cpp" />
     <ClCompile Include="Study6DrawHistogram.cpp" />
     <ClCompile Include="Study6HistogramCalc.cpp" />
     <ClCompile Include="Study6HistogramEqualize.cpp" />
     <ClCompile Include="Study6HistogramStretching.cpp" />
     <ClCompile Include="Study6HueHistogram.cpp" />
     <ClCompile Include="Study6HueThreshold.cpp" />
-    <ClCompile Include="StudyArithmeticOp.cpp" />
-    <ClCompile Include="StudyBitwiseOp.cpp" />
-    <ClCompile Include="StudyBitwiseOverlap.cpp" />
-    <ClCompile Include="StudyBrightDark.cpp" />
-    <ClCompile Include="StudyCameraFrame.cpp" />
-    <ClCompile Include="StudyCircle.cpp" />
-    <ClCompile Include="StudyContrast.cpp" />
-    <ClCompile Include="StudyDraw.cpp" />
-    <ClCompile Include="StudyDrawEvent.cpp" />
-    <ClCompile Include="StudyEllipse.cpp" />
-    <ClCompile Include="StudyEquation.cpp" />
-    <ClCompile Include="StudyExpLog.cpp" />
-    <ClCompile Include="StudyGemm.cpp" />
-    <ClCompile Include="StudyGrayscaleImage.cpp" />
-    <ClCompile Include="StudyImageChannels.cpp" />
-    <ClCompile Include="StudyImageDataWrite.cpp" />
-    <ClCompile Include="StudyImageSynthesis.cpp" />
-    <ClCompile Include="StudyKeyEvent.cpp" />
-    <ClCompile Include="StudyMagnitude.cpp" />
-    <ClCompile Include="StudyMat.cpp" />
-    <ClCompile Include="StudyMatAbs.cpp" />
-    <ClCompile Include="StudyMatArray.cpp" />
-    <ClCompile Include="StudyMatAt.cpp" />
-    <ClCompile Include="StudyMatAttr.cpp" />
-    <ClCompile Include="StudyMatChannel.cpp" />
-    <ClCompile Include="StudyMatException.cpp" />
-    <ClCompile Include="StudyMatInit.cpp" />
-    <ClCompile Include="StudyMatIterator.cpp" />
-    <ClCompile Include="StudyMatOperator.cpp" />
-    <ClCompile Include="StudyMatPtr.cpp" />
-    <ClCompile Include="StudyMatPush.cpp" />
-    <ClCompile Include="StudyMatSaturate.cpp" />
-    <ClCompile Include="StudyMinMax.cpp" />
-    <ClCompile Include="StudyMinMax2.cpp" />
-    <ClCompile Include="StudyMixChannel.cpp" />
-    <ClCompile Include="StudyMouseEvent.cpp" />
-    <ClCompile Include="StudyPixelValue.cpp" />
-    <ClCompile Include="StudyPoint2.cpp" />
-    <ClCompile Include="StudyPoint3.cpp" />
-    <ClCompile Include="StudyPointTransform.cpp" />
-    <ClCompile Include="StudyPutText.cpp" />
-    <ClCompile Include="StudyRange.cpp" />
-    <ClCompile Include="StudyRangeROI.cpp" />
-    <ClCompile Include="StudyReadCamera.cpp" />
-    <ClCompile Include="StudyReadFileStorage.cpp" />
-    <ClCompile Include="StudyReadImage.cpp" />
-    <ClCompile Include="StudyReadImage3.cpp" />
-    <ClCompile Include="StudyReadVideo.cpp" />
-    <ClCompile Include="StudyRect.cpp" />
-    <ClCompile Include="StudyReduce.cpp" />
-    <ClCompile Include="StudyRotatedRect.cpp" />
-    <ClCompile Include="StudyScalar.cpp" />
-    <ClCompile Include="StudySetCamera.cpp" />
-    <ClCompile Include="StudySize.cpp" />
-    <ClCompile Include="StudySmAvg.cpp" />
-    <ClCompile Include="StudySort.cpp" />
-    <ClCompile Include="StudySortIdx.cpp" />
-    <ClCompile Include="StudySortIdxRect.cpp" />
-    <ClCompile Include="StudyTrackbarEvent.cpp" />
-    <ClCompile Include="StudyTrackbarEvent2.cpp" />
-    <ClCompile Include="StudyVec.cpp" />
-    <ClCompile Include="StudyWindowMove.cpp" />
-    <ClCompile Include="StudyWindowResize.cpp" />
-    <ClCompile Include="StudyWriteFileStorage.cpp" />
-    <ClCompile Include="StudyWriteImage.cpp" />
-    <ClCompile Include="StudyWriteImage2.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="OpenCvStudy.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

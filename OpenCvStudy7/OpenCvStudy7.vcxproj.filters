@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Chapter7">
+      <UniqueIdentifier>{e7a645ac-a59b-4203-87c7-04c08fee39d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Chapter7">
+      <UniqueIdentifier>{20b7c03a-34ee-4af7-8c45-c400efc9f0b3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Study7Difference_op.h">
+      <Filter>헤더 파일\Chapter7</Filter>
+    </ClInclude>
+    <ClInclude Include="Study7Edge_Dog.h">
+      <Filter>헤더 파일\Chapter7</Filter>
+    </ClInclude>
+    <ClInclude Include="Study7EdgeLaplacian.h">
+      <Filter>헤더 파일\Chapter7</Filter>
+    </ClInclude>
+    <ClInclude Include="Study7EdgePrewitt.h">
+      <Filter>헤더 파일\Chapter7</Filter>
+    </ClInclude>
+    <ClInclude Include="Study7EdgeRoberts.h">
+      <Filter>헤더 파일\Chapter7</Filter>
+    </ClInclude>
+    <ClInclude Include="Study7EdgeSobel.h">
+      <Filter>헤더 파일\Chapter7</Filter>
+    </ClInclude>
+    <ClInclude Include="Study7Homogenity_op.h">
+      <Filter>헤더 파일\Chapter7</Filter>
+    </ClInclude>
+    <ClInclude Include="Study7Shrapening.h">
+      <Filter>헤더 파일\Chapter7</Filter>
+    </ClInclude>
+    <ClInclude Include="Study7Blurring.h">
+      <Filter>헤더 파일\Chapter7</Filter>
+    </ClInclude>
+    <ClInclude Include="Study7Canny.h">
+      <Filter>헤더 파일\Chapter7</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenCvStudy7.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Study7Blurring.cpp">
+      <Filter>소스 파일\Chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="Study7Canny.cpp">
+      <Filter>소스 파일\Chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="Study7Difference_op.cpp">
+      <Filter>소스 파일\Chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="Study7Edge_Dog.cpp">
+      <Filter>소스 파일\Chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="Study7EdgeLaplacian.cpp">
+      <Filter>소스 파일\Chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="Study7EdgePrewitt.cpp">
+      <Filter>소스 파일\Chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="Study7EdgeRoberts.cpp">
+      <Filter>소스 파일\Chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="Study7EdgeSobel.cpp">
+      <Filter>소스 파일\Chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="Study7Homogenity_op.cpp">
+      <Filter>소스 파일\Chapter7</Filter>
+    </ClCompile>
+    <ClCompile Include="Study7Shrapening.cpp">
+      <Filter>소스 파일\Chapter7</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
