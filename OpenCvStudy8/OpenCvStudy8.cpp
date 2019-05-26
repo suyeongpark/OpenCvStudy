@@ -4,12 +4,12 @@
 #include "pch.h"
 #include <iostream>
 #include <opencv2/highgui.hpp>
-//#include "Study7DetectPlate.h"
+#include "Study8PerpectiveTransform.h"
 
 int main()
 {
-	//Study7DetectPlate study;
-	//study.Start();
+	Study8PerpectiveTransform study;
+	study.Start();
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴

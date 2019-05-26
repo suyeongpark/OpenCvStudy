@@ -24,6 +24,33 @@
     <ClInclude Include="pch.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="Study8AffineCombination.h">
+      <Filter>헤더 파일\Chapter8</Filter>
+    </ClInclude>
+    <ClInclude Include="Study8AffineTransform.h">
+      <Filter>헤더 파일\Chapter8</Filter>
+    </ClInclude>
+    <ClInclude Include="Study8PerpectiveTransform.h">
+      <Filter>헤더 파일\Chapter8</Filter>
+    </ClInclude>
+    <ClInclude Include="Study8Rotation.h">
+      <Filter>헤더 파일\Chapter8</Filter>
+    </ClInclude>
+    <ClInclude Include="Study8Rotation2.h">
+      <Filter>헤더 파일\Chapter8</Filter>
+    </ClInclude>
+    <ClInclude Include="Study8Scaling.h">
+      <Filter>헤더 파일\Chapter8</Filter>
+    </ClInclude>
+    <ClInclude Include="Study8ScalingBilinear.h">
+      <Filter>헤더 파일\Chapter8</Filter>
+    </ClInclude>
+    <ClInclude Include="Study8ScalingNearset.h">
+      <Filter>헤더 파일\Chapter8</Filter>
+    </ClInclude>
+    <ClInclude Include="Study8Translation.h">
+      <Filter>헤더 파일\Chapter8</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -31,6 +58,33 @@
     </ClCompile>
     <ClCompile Include="OpenCvStudy8.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Study8AffineCombination.cpp">
+      <Filter>소스 파일\Chapter8</Filter>
+    </ClCompile>
+    <ClCompile Include="Study8AffineTransform.cpp">
+      <Filter>소스 파일\Chapter8</Filter>
+    </ClCompile>
+    <ClCompile Include="Study8PerpectiveTransform.cpp">
+      <Filter>소스 파일\Chapter8</Filter>
+    </ClCompile>
+    <ClCompile Include="Study8Rotation.cpp">
+      <Filter>소스 파일\Chapter8</Filter>
+    </ClCompile>
+    <ClCompile Include="Study8Rotation2.cpp">
+      <Filter>소스 파일\Chapter8</Filter>
+    </ClCompile>
+    <ClCompile Include="Study8Scaling.cpp">
+      <Filter>소스 파일\Chapter8</Filter>
+    </ClCompile>
+    <ClCompile Include="Study8ScalingBilinear.cpp">
+      <Filter>소스 파일\Chapter8</Filter>
+    </ClCompile>
+    <ClCompile Include="Study8ScalingNearset.cpp">
+      <Filter>소스 파일\Chapter8</Filter>
+    </ClCompile>
+    <ClCompile Include="Study8Translation.cpp">
+      <Filter>소스 파일\Chapter8</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
