@@ -154,7 +154,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
+    <ClInclude Include="Study9DCT.h" />
+    <ClInclude Include="Study9DCT_fast.h" />
+    <ClInclude Include="Study9DCT_filtering.h" />
     <ClInclude Include="Study9DFT.h" />
+    <ClInclude Include="Study9FFT.h" />
+    <ClInclude Include="Study9FFT_filtering.h" />
+    <ClInclude Include="Study9FFT_filtering2.h" />
+    <ClInclude Include="Study9Remove_Moire.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="OpenCvStudy9.cpp" />
@@ -164,7 +171,14 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Study9DCT.cpp" />
+    <ClCompile Include="Study9DCT_fast.cpp" />
+    <ClCompile Include="Study9DCT_filtering.cpp" />
     <ClCompile Include="Study9DFT.cpp" />
+    <ClCompile Include="Study9FFT.cpp" />
+    <ClCompile Include="Study9FFT_filtering.cpp" />
+    <ClCompile Include="Study9FFT_filtering2.cpp" />
+    <ClCompile Include="Study9Remove_Moire.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

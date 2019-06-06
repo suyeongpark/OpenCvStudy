@@ -4,11 +4,11 @@
 #include "pch.h"
 #include <iostream>
 #include <opencv2/highgui.hpp>
-#include "Study9DFT.h"
+#include "Study9DCT_fast.h"
 
 int main()
 {
-	Study9DFT study;
+	Study9DCT_fast study;
 	study.Start();
 }
 
